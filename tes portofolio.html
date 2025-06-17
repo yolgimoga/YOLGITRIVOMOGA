@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yolgi Trivo Moga - Portofolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: url('https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      color: #333;
+      line-height: 1.6;
+    }
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.9);
+      min-height: 100vh;
+      padding-bottom: 2rem;
+    }
+    header {
+      background-color: #fffdd0;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid #d2b48c;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #c2185b;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #ffc0cb;
+      gap: 2rem;
+      padding: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #5a2e2e;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #d2b48c;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #5a2e2e;
+    }
+    .hero p {
+      margin-bottom: 2rem;
+    }
+    .hero button {
+      background-color: #d2b48c;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      color: white;
+      font-weight: bold;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .hero button:hover {
+      background-color: #c8a96a;
+    }
+    section {
+      padding: 2rem;
+    }
+    h2 {
+      text-align: center;
+      color: #c2185b;
+      margin-bottom: 2rem;
+    }
+    .about img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 1rem;
+      object-fit: cover;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .project-item {
+      background-color: #fff0f5;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+    }
+    .project-item img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+    }
+    .contact form {
+      max-width: 400px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .contact input, .contact textarea {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact button {
+      background-color: #c2185b;
+      color: white;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact button:hover {
+      background-color: #a1154c;
+    }
+    footer {
+      background-color: #fffdd0;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      color: #5a2e2e;
+    }
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <h1>Yolgi Trivo Moga</h1>
+    </header>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Saya</a>
+      <a href="#portfolio">Portofolio</a>
+      <a href="#education">Pendidikan</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+
+    <section class="about" id="about">
+        <h2 style="margin-bottom: 1rem;">Tentang Saya</h2>
+        <img src="c:\xampp\htdocs\tes\foto profil.jpg" alt="Foto Profil" style="margin-top: -0.5rem;">
+        <p style="text-align: justify;">Halo, saya Yolgi Trivo Moga, seorang individu yang memiliki semangat tinggi dalam dunia teknologi, desain, dan pengembangan digital. Minat saya terhadap teknologi berkembang sejak usia dini dan terus tumbuh seiring waktu, mendorong saya untuk mendalami berbagai bidang mulai dari pengembangan web, UI/UX design, hingga pemanfaatan teknologi untuk memecahkan masalah nyata.
+
+            Saya percaya bahwa setiap karya digital harus mampu menghadirkan nilai – bukan hanya dari sisi visual, tetapi juga dari segi fungsi dan pengalaman pengguna. Karena itu, saya berusaha menggabungkan estetika dan efisiensi dalam setiap proyek yang saya kerjakan. Prinsip desain saya adalah sederhana namun bermakna, dan saya percaya bahwa keindahan bisa ditemukan dalam kesederhanaan.
+            
+            Dalam perjalanan saya, saya telah mengikuti berbagai pelatihan, kolaborasi proyek, hingga riset kecil-kecilan untuk memperluas wawasan dan keterampilan. Saya menikmati proses belajar yang berkelanjutan, karena teknologi terus berkembang dan menantang kita untuk berinovasi. Baik itu membuat website yang ramah pengguna, membangun solusi digital yang praktis, maupun menciptakan desain yang menyampaikan cerita, saya selalu berusaha memberikan yang terbaik.
+            
+            Di luar dunia kerja dan studi, saya senang mengamati tren desain, menulis ide-ide baru, dan mengeksplorasi tools digital yang bisa meningkatkan produktivitas maupun kreativitas. Saya juga percaya bahwa kolaborasi adalah kunci untuk menghasilkan karya yang berdampak, dan saya selalu terbuka untuk bekerja sama dalam proyek-proyek yang menginspirasi.
+            
+            Melalui website ini, saya ingin membagikan perjalanan saya, memperkenalkan karya-karya yang telah saya buat, serta membuka kesempatan untuk terhubung dengan individu atau organisasi yang memiliki visi serupa.</p>
+      </section>
+      
+    <section class="hero" id="home">
+      <h2>Mahasiswa & Pengembang Web</h2>
+      <p>Membangun website sederhana dan profesional dengan semangat belajar tinggi.</p>
+      <button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">Hubungi Saya</button>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portofolio</h2>
+      <div class="projects">
+        <div class="project-item">
+          <img src="https://source.unsplash.com/300x200/?online,store" alt="Toko Online">
+          <h3>Website Toko Online</h3>
+          <p>Website toko sederhana menggunakan HTML, CSS, dan JavaScript dasar.</p>
+        </div>
+        <div class="project-item">
+          <img src="https://source.unsplash.com/300x200/?library,books" alt="Perpustakaan">
+          <h3>Sistem Perpustakaan</h3>
+          <p>Aplikasi pengelolaan data buku dan peminjaman dengan Python.</p>
+        </div>
+        <div class="project-item">
+          <img src="https://source.unsplash.com/300x200/?data,analysis" alt="Analisis Data">
+          <h3>Analisis Data</h3>
+          <p>Analisis dataset menggunakan Python, pandas, dan visualisasi matplotlib.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Riwayat Pendidikan</h2>
+      <div style="max-width: 600px; margin: auto; text-align: center;">
+        <p><strong>2022 - Sekarang</strong><br>Universitas XYZ - S1 Teknik Informatika</p>
+        <p><strong>2019 - 2022</strong><br>SMK Negeri 1 Kota - Rekayasa Perangkat Lunak</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Kontak</h2>
+      <div class="contact">
+        <form>
+          <input type="text" placeholder="Nama" required />
+          <input type="email" placeholder="Email" required />
+          <textarea rows="5" placeholder="Pesan" required></textarea>
+          <button type="submit">Kirim Pesan</button>
+        </form>
+        <p style="text-align: center; margin-top: 1rem;">Atau hubungi saya di:</p>
+        <p style="text-align: center;">
+          <a href="mailto:yolgimoga123@gmail.com">yolgimoga123@gmail.com</a><br>
+          <a href="https://linkedin.com/in/yolgi" target="_blank">LinkedIn</a> |
+          <a href="https://github.com/yolgi" target="_blank">GitHub</a>
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Yolgi Trivo Moga. Semua Hak Dilindungi.</p>
+    </footer>
+  </div>
+</body>
+</html>
